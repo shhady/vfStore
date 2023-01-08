@@ -199,7 +199,11 @@ const ProductTable = ({ products, setProducts, admin }) => {
                   setUnitId(product._id);
                   handleCartHeader();
                 }}
-                style={{ borderRadius: "50%", cursor: "pointer" }}
+                style={{
+                  borderRadius: "50%",
+                  cursor: "pointer",
+                  color: "black",
+                }}
               >
                 +
               </button>
@@ -212,7 +216,11 @@ const ProductTable = ({ products, setProducts, admin }) => {
                   setUnitId(product._id);
                   handleCartHeader();
                 }}
-                style={{ borderRadius: "50%", cursor: "pointer" }}
+                style={{
+                  borderRadius: "50%",
+                  cursor: "pointer",
+                  color: "black",
+                }}
               >
                 -
               </button>

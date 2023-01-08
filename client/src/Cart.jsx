@@ -145,7 +145,11 @@ const Cart = ({ products, setProducts }) => {
                     handleAddUnit(product);
                     setUnitId(product._id);
                   }}
-                  style={{ borderRadius: "50%", cursor: "pointer" }}
+                  style={{
+                    borderRadius: "50%",
+                    cursor: "pointer",
+                    color: "black",
+                  }}
                 >
                   +
                 </button>
@@ -157,7 +161,11 @@ const Cart = ({ products, setProducts }) => {
                     handleDecUnit(product);
                     setUnitId(product._id);
                   }}
-                  style={{ borderRadius: "50%", cursor: "pointer" }}
+                  style={{
+                    borderRadius: "50%",
+                    cursor: "pointer",
+                    color: "black",
+                  }}
                 >
                   -
                 </button>
